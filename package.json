@@ -1,0 +1,20 @@
+{
+  "name": "pagecrud",
+  "version": "1.0.0",
+  "description": "Sistema de generacion de paginas crud",
+  "license": "ISC",
+  "author": "Emanuel santana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
